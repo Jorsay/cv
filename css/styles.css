@@ -1,0 +1,41 @@
+/******************tag selectors****************/
+body {
+  background-color: #e9e2d0;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #ea9085;
+  border-width: 5px;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+  width: 20%;
+}
+
+h1 {
+  color: #6e5773;
+}
+
+h3 {
+  color: #6e5773;
+}
+img {
+  border-radius: 4%;
+}
+
+/*******class selectors********/
+.shadowbox {
+  width: 15em;
+  text-align: center;
+  padding: 8px;
+  background-color: #ea9085;
+}
+#portrait {
+  border-radius: 100%;
+}
+#portrait:hover {
+  background: url(images/gorilla-skull.jpg); 
+  width: 400px;
+  height: 400px;
+}
